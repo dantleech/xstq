@@ -1,0 +1,12 @@
+[package]
+name = "source-grep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.39", features = ["derive"] }
+pretty_assertions = "1.4.1"
+tree-sitter = "0.25.6"
+tree-sitter-php = "0.23.11"
+xot = "0.31.2"
