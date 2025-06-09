@@ -70,3 +70,10 @@ You can then run an analysis and output in JSON format:
 ```
 xstq --config rules.toml analyze "tests/**/*Test.php" --json > out.json
 ```
+
+TODO
+----
+
+- [ ] Multi-threading
+- [ ] Language selection (currently hardcoded to PHP)
+- [ ] ...
